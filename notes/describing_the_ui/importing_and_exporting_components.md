@@ -1,0 +1,1 @@
+* Named vs default imports and exports: Can have multiple named exports per file, can only have one default export. It is personal preference really. I prefer to use named exports if the file is exporting multiple things and default exports if the file exports only one thing. Sometimes one of my filed may have both and that is fine too. 
