@@ -1,0 +1,1 @@
+* JSX lets you keep your markup and rendering logic in the same place (because they are related). Using curly braces in JSX "opens a window" into javascript. 
