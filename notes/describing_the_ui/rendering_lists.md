@@ -1,0 +1,2 @@
+* React uses `key` in order to keep track of which array item each component corresponds to internally in order to make the right updates to the DOM if an item is added, deleted or rearranged. 
+* Keys must be unique identifiers in order for React to handle them properly
