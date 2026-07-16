@@ -1,0 +1,2 @@
+* Render trees help identify what the top-level and leaf components are. Top-level components affect the rendering performance of all components beneath them and leaf components are often re-rendered frequently. Identifying them is useful for understanding and debugging rendering performance.
+* Dependency trees are used by bundlers and are useful for debugging large bundle sizes that slow time to paint and expose opportunities for optimizing what code is bundled.
