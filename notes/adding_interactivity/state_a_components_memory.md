@@ -1,0 +1,3 @@
+* State variables are used when a component needs to "remember" some info between renders. The `useState` hook returns an array with two values, the first being the current value of the stateful variable and the second being a state updating function that tells React to queue a change to the stateful variable. 
+* React relies on a stable call order for all hooks to uniquely identify them, in order for this to work we need to only call hooks at the top level of our components.
+* State is private to the component. If you render it in two places, each copy gets its own state.
