@@ -1,0 +1,2 @@
+* React only will trigger a rerender after event handlers have finished running, all state updates made within an event handler will be batched into a queue. The next render will then process those state updates from the queue. This ensures good performance and minimal rerenders.
+* `setState` can be called with an updater function in order to make multiple state updates at a time (per render) like this `setCount(c => c + 1)`.
