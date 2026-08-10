@@ -2,3 +2,4 @@
 * When you store objects in state, mutating them will not trigger renders and will change the state in previous render “snapshots”.
 * Don't mutate objects (arrays are objects too) in state directly, instead you must create a new object. React uses `Object.is` under the hood for equality checking to determine if a rerender should occur, if you simply mutate the object the object reference won't change and React won't know something changed and should rerender.
 * Immer is a useful library for deeply nested objects in state. It lets you write simple statements that look like a direct mutation, but under the hood actually creates new objects for you. 
+* In general you should only mutate objects you have just created, be very careful working with objects in arrays, nested objects, etc. but the preference is to keep state as flat as possible
