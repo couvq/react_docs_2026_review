@@ -1,0 +1,4 @@
+* If state variables update together frequently, consider merging them into one state. That way you won't need to remember to keep them in sync.
+* Avoid redundant state - if something can be computed from a prop or another state variable already, it probably doesn't need another state variable. 
+* Avoid deeply nested state, it is harder to update and keep in sync. Instead prefer flattening or normalizating your state structure.
+* Remember that `useState` only sets the initial state once, that means you can run into issues setting the initial state from a prop. If thep parent component state updates the child will rerender, but the childs state won't change since it is its own internal copy.
