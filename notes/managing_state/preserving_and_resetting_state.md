@@ -1,0 +1,3 @@
+* React uses position in the render tree to determine whether state should be reserved or destroyed - in general the same component that maintains the same position in the render tree will have its state preserved and when the position changes or the component is removed that state is destroyed by React.
+* You can use keys to force a state to be reset
+* Don’t nest component definitions, or you’ll reset state by accident.
