@@ -1,0 +1,1 @@
+* Context is a convenient alternative to prop drilling. It lets you provide data from context to any component below the context provider in the tree.
