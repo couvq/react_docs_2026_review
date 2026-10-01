@@ -1,0 +1,3 @@
+* `useReducer` is similar to using useState like this `useState(c => c + 1)` but not exactly
+* `useReducer` takes an initial state and a "reducer" function and spits out the current state and a "dispatch" function that is used to dispatch events. The reducer function takes the current state along with an action and uses those to compute the next state. I prefer useReducer for more complex state updates that must occur together and find that the components are simplified and easier to debug as the state updating logic is all in the reducer, all the component becomes responsible for is dispatching actions.
+* `useReducer` runs during rendering similarly to useState, so must follow all the same rules.
